@@ -4,7 +4,7 @@
 
 ## local-setup 
   * npm i 
-  * create a .env that and add a BOT_TOKEN field that contains your discord bot token 
+  * create a .env file in the root of the project and add a BOT_TOKEN field that contains your discord bot token 
   * npm run dev  
   
 
