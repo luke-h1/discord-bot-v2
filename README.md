@@ -4,6 +4,7 @@
 
 ## local-setup 
   * npm i 
+  * create a .env that and add a BOT_TOKEN field that contains your discord bot token 
   * npm run dev  
   
 
@@ -15,5 +16,5 @@
  
  
 ## TODO 
- * cleanup and refactor code 
- * optimize code instead of using if else statements (import commands maybe)
+ * cleanup and refactor code  
+ * study discord library more in order to optimize code 
