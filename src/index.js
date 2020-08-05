@@ -22,6 +22,10 @@ client.on('message', function (message) {
         const numArgs = args.map(x => parseFloat(x)); 
         const sum = numArgs.reduce((counter, x) => counter += x);  
         message.reply(`The sum of all the args you provide is ${num}!`)
+    } 
+
+    else if (command === 'hello'){
+        message.reply(`Beep boop I am a 🤖`)
     }
 });
 

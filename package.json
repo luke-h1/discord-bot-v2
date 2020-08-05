@@ -4,7 +4,8 @@
   "description": "CLIENT-SECRET = oS6kgjaDSdqUG0N5ovO-irrDnvOUha21 CLIENT-ID = 740631458313666592",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint *.js",  
+    "dev" : "node src/index.js" 
   },
   "repository": {
     "type": "git",
