@@ -4,8 +4,8 @@
   "description": "CLIENT-SECRET = oS6kgjaDSdqUG0N5ovO-irrDnvOUha21 CLIENT-ID = 740631458313666592",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js",  
-    "dev" : "node src/index.js" 
+    "lint": "eslint *.js",
+    "dev": "nodemon --inspect src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/luke-h1/discord-bot#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
