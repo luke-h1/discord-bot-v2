@@ -8,5 +8,5 @@
 
 ## commands 
   * !ping 
-  * !sum 
+  * !hello 
  
