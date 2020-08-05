@@ -3,10 +3,13 @@
 
 
 ## local-setup 
-  * npm run dev 
+  * npm i 
+  * npm run dev  
+  
 
 
 ## commands 
   * !ping 
   * !hello 
+  * !whoami 
  
