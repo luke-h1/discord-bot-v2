@@ -3,10 +3,11 @@
 <hr> 
 ## local-setup  
   * setup project / dependencies  
-      * ```npm i discord.js dotenv ```
+      * npm i discord.js dotenv 
+      * create .env file & add BOT_TOKEN field & value 
     
   * setup eslint 
-  * ```npm i eslint ```
+  * npm i eslint 
   * airbnb config 
       
   * create discord bot  
