@@ -1,20 +1,19 @@
 # discord-bot
 {WIP} discord bot work in progress 
-
-
+<hr> 
 ## local-setup  
-  * setup project / dependencies 
-      * npm i discord.js dotenv 
+  * setup project / dependencies  
+      * ```npm i discord.js dotenv ```
     
   * setup eslint 
-      * npm i eslint 
-      * airbnb config 
+  * ```npm i eslint ```
+  * airbnb config 
       
   * create discord bot  
-      * https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot 
+  * https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot 
     
   * add bot to server 
-      * https://discordjs.guide/preparations/adding-your-bot-to-servers.html 
+  * https://discordjs.guide/preparations/adding-your-bot-to-servers.html 
       
   * make ping command 
   * make hello command 
