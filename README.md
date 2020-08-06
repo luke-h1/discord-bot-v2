@@ -4,6 +4,7 @@
 
 ## local-setup 
   * npm i 
+  * npm run lint 
   * npm run dev  
   
 
