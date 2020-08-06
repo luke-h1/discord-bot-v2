@@ -5,6 +5,7 @@
 ## local-setup  
   * setup project / dependencies 
       * npm i discord.js dotenv 
+    
   * setup eslint 
       * npm i eslint 
       * airbnb config 
