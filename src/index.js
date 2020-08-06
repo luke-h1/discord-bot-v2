@@ -6,8 +6,8 @@ const client = new Discord.Client();
 const prefix = '!';
 
 client.on('message', function (message) {
-    if (message.author.bot) return;
-    if (!message.content.startsWith(prefix)) return; 
+    if (message.author.bot) return; // if the user is a bot don't respond 
+    if (!message.content.startsWith(prefix)) return; // if user doesn't include prefix at start don't respond 
 
     const commandBody = message.content.slice(prefix.length);  
     const args = commandBody.split(' ');  
